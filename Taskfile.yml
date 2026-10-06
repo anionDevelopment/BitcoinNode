@@ -7,16 +7,27 @@ tasks:
     silent: true
     dir: "."
     cmds:
-      - scbuildcodeunits
+      - "scbuildcodeunits"
     aliases:
       - basebuildallcodeunits
       - bb
 
-  bitcoinnodeRunExample:
-    desc: "BitcoinNode: Run example"
+  BaseExampleStart:
+    desc: "Base: Example start"
     silent: true
-    dir: "."
+    dir: "./BitcoinNode/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile"
     cmds:
-      - python BitcoinNode/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile/RunExample.py
+      - "python StartExample.py"
     aliases:
-      - bitcoinnoderunexample
+      - baseexamplestart
+      - beu
+
+  BaseExampleStop:
+    desc: "Base: Example stop"
+    silent: true
+    dir: "./BitcoinNode/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile"
+    cmds:
+      - "python StopExample.py"
+    aliases:
+      - baseexamplestop
+      - bed

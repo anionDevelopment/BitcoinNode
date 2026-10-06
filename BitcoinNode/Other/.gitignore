@@ -11,4 +11,4 @@ Resources/Constants/CommitDate.*
 Resources/Constants/CommitId.*
 Resources/Constants/CurrentTimestamp.*
 Resources/Bitcoin
-
+__pycache__/
