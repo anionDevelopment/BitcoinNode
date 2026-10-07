@@ -1,1 +1,8 @@
-﻿Other/Resources/PlantUML/plantuml.jar
+Other/Resources/PlantUML/plantuml.jar
+
+Other/Resources/Artifacts
+/.notes/
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/*.lock
+Other/Logs

@@ -2,8 +2,10 @@ version: '3.2'
 
 services:
   bitcoinnode:
-    image: bitcoinnode:0.2.13
+    image: bitcoinnode:0.2.14
     container_name: 'bitcoinnode'
+    # bitcoind flushes its databases when it shuts down. The default of 10 seconds is often not enough for that.
+    stop_grace_period: 2m
     volumes:
       - "./Volumes/Data:/Workspace/Data"
       - "./Volumes/Logs:/Workspace/Logs"

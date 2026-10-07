@@ -4,7 +4,7 @@
 
 [BitcoinNode](https://github.com/anionDev/BitcoinNode) is a docker-image for simply running a [Bitcoin](https://bitcoin.org)-node in a docker-container.
 
-The currently used Bitcoin-version is 28.1.
+The currently used Bitcoin-version is 31.1.
 
 ## Reference
 
