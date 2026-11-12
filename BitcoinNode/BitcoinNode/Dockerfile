@@ -21,6 +21,9 @@ RUN tar xzf Bitcoin.tar.gz && \
     cd / && \
     rm -rf /Workspace/Temp
 COPY ./BitcoinNode/EntryPointScript.sh /Workspace/Program/EntryPointScript.sh
-RUN chmod +x /Workspace/Program/EntryPointScript.sh
+COPY ./BitcoinNode/HealthCheck.sh /Workspace/Program/HealthCheck.sh
+RUN chmod +x /Workspace/Program/EntryPointScript.sh /Workspace/Program/HealthCheck.sh
+# bitcoind does not answer RPC-requests during its warmup (for example while loading the block-index), which can take some minutes.
+HEALTHCHECK --interval=30s --timeout=20s --start-period=10m CMD /Workspace/Program/HealthCheck.sh
 WORKDIR /Workspace/Program
 ENTRYPOINT ["/Workspace/Program/EntryPointScript.sh"]

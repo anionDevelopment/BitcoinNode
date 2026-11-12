@@ -2,20 +2,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" data-diagram-type="DESCRIPTION" style="width:608px;height:190px;background:#FFFFFF;" width="608px" height="190px" viewBox="0 0 608 190" zoomAndPan="magnify" preserveAspectRatio="none" contentStyleType="text/css">
   <defs />
   <g font-family="sans-serif" lengthAdjust="spacing">
-    <g class="title" data-source-line="1">
-      <text x="199.894" y="22.995" fill="#000" font-size="14" textLength="201.722" font-weight="700" font-family="DejaVu Sans">CodeUnits of BitcoinNode</text>
+    <g class="title" data-source-line="2">
+      <text x="199.894" y="22.995" fill="#000" font-size="14" textLength="201.722" font-weight="700" font-family="'DejaVu Sans'">CodeUnits of BitcoinNode</text>
     </g>
-    <g class="entity" data-qualified-name="BitcoinNode" id="ent0001" data-source-line="3">
+    <g class="entity" data-qualified-name="BitcoinNode" id="ent0001" data-source-line="4">
       <rect x="237.48" y="44.297" width="124.547" height="46.297" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" rx="2.5" ry="2.5" />
       <rect x="342.027" y="49.297" width="15" height="10" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" />
       <rect x="340.027" y="51.297" width="4" height="2" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" />
       <rect x="340.027" y="55.297" width="4" height="2" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" />
-      <text x="252.48" y="77.292" fill="#000" font-size="14" textLength="84.547" font-family="DejaVu Sans">BitcoinNode</text>
+      <text x="252.48" y="77.292" fill="#000" font-size="14" textLength="84.547" font-family="'DejaVu Sans'">BitcoinNode</text>
     </g>
-    <g class="entity" data-qualified-name="BitcoinNodeNote" id="ent0002" data-source-line="5">
+    <g class="entity" data-qualified-name="BitcoinNodeNote" id="ent0002" data-source-line="6">
       <path d="M6,150.597 L6,175.73 A0,0 0 0 0 6,175.73 L593.509,175.73 A0,0 0 0 0 593.509,175.73 L593.509,160.597 L583.509,150.597 L303.75,150.597 L299.75,90.657 L295.75,150.597 L6,150.597 A0,0 0 0 0 6,150.597" style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD" />
       <path d="M583.509,150.597 L583.509,160.597 L593.509,160.597 L583.509,150.597" style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD" />
-      <text x="12" y="167.664" fill="#000" font-size="13" textLength="566.509" font-family="DejaVu Sans">BitcoinNode is a docker-image for simply running a Bitcoin-node in a docker-container.</text>
+      <text x="12" y="167.664" fill="#000" font-size="13" textLength="566.509" font-family="'DejaVu Sans'">BitcoinNode is a docker-image for simply running a Bitcoin-node in a docker-container.</text>
     </g>
   </g>
 </svg>
